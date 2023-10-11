@@ -78,14 +78,16 @@ const handleShowPass = (e) => {
           </label>
         </div>
         <div className='flex gap-4 mt-3'>
-        <input type="checkbox"  className="checkbox" />
+        <input type="checkbox"   className="checkbox" />
         <label><p>Accept our <Link className='underline text-blue-600' to='/terms'>terms & conditions</Link></p></label>
 
         </div>
         <div className="form-control mt-6">
-          <button className="btn btn-primary">Register</button>
-          {/* <p>{user}</p> */}
+          <button className="btn btn-primary" >Register</button>
         </div>
+        
+
+        
       </form>
     </div>
   </div>
